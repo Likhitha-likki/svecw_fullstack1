@@ -1,0 +1,149 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to bottom,rgb(0,96,200),rgb(148,200,255));
+}
+.up{
+    height: 170px;
+    width: 100vw;
+}
+
+.header{
+    float: right;
+}
+.dots{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+.dots:hover{
+    color: aqua;
+    transform: translateY(-5px);
+}
+.text{
+    position: absolute;
+    margin-left: 100px;
+    color: #fcfcfc;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.ha{
+    float: right;
+}
+.btn{
+    font-size: 20px;
+    flex: display;
+    margin-top: 20px;
+    margin-right: 40px;
+    padding: 10px 30px;
+    border-radius: 7px;
+}
+.btn:hover{
+    background-color: aliceblue;
+    transform: translateY(-5px);
+    border-radius: 5px;
+}
+.line{
+    position: relative;
+    display: flex-end;
+    float: right;
+    color: aliceblue;
+}
+.search{
+    width: 30px;
+    height: 30px;
+}
+.lists{
+    margin-top: 130px;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    margin-right: -130px;
+    font-size: 25px;
+}
+a{
+    color: white;
+    padding: 0 10px;
+}
+.lists a:hover{
+    color: aqua;
+    transform: translate(-2px);
+}
+.search:hover{
+    transform: translate(2px)
+}
+
+.lune{
+    height: -80vh;
+    width: 100vw;
+}
+.tuxt{
+    position: relative;
+    color: aliceblue;
+}
+.tuxt1{
+    margin-top: 100px;
+    margin-left: 200px;
+    font-size: 25px;
+}
+.tuxt2{
+    margin-top: -20px;
+    margin-left: 400px;
+    font-size: 25px;
+}
+.tuxt1 a{
+    text-decoration: none;
+}
+.tuxt2 a{
+    text-decoration: none;
+    text-decoration-line: none;
+}
+.tuxt a:hover{
+    color: aqua;
+}
+.area{
+    position: relative;
+}
+.area1{
+    margin-left: 200px;
+    margin-top: 50px;
+    background-color: rgb(148,200,255);
+    border: none;
+    border-color: white;
+}
+placeholder{
+    font-size: 25px;
+}
+.low{
+    height: 100px;
+    width: 1450px;
+    display: flex-end;
+    color: #fcfcfc;
+}
+.lst{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+    margin-top: 150px;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
